@@ -1,16 +1,13 @@
-# React + Vite
+This is just a fan-site for Metal Gear Solid.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I got images from the codec from in-game, the buttons for the carousel are identical to the ones found on the codec in-game.
 
-Currently, two official plugins are available:
+There was supposed to be music like branded-sites in the 90s, but modern browsers DON'T allow autoPlay content because of said reason.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I built is using React, being as the Metal Gear Solid games grew the technology grew, I associated React with the leap from Metal Gear (HTML) to Metal Gear Solid). I will work on this overarching project more, so I can fully explain why I built this site using React.
 
-## React Compiler
+I learned quite a bit about React, but this isn't my first React project.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Audio was the biggest hurdle because importing audio source into React will throw the improper use of hook components error in the console, so I had to find other methods.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The projects will be more refined in the future, but I won't work on this one anymore, as it took 2 days to build; 6 hrs avg/day.
