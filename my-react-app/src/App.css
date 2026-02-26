@@ -1,0 +1,80 @@
+body{
+  display: grid;
+  background-color: white;
+  padding-bottom: 2vw;
+}
+
+root{
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'metalGear';
+  src: local('metalGear'), url(./fonts/METAG___.TTF) format('truetype');
+}
+
+.title{
+  color:red;
+  font-size:10vw;
+  font-family: 'metalGear';
+  text-align: center;
+}
+
+.carousel{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-column-gap: 2vw;
+}
+
+.characters{
+  margin: 0 2vw;
+}
+
+.arrow-BG{
+  background-color: #081212;
+  padding: 1vw 5vw;
+  height: max-content;
+  width: max-content;
+  align-self: center;
+}
+.arrow-BG:focus{
+  outline: 0;
+
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 2vw solid transparent;
+  border-bottom: 2vw solid transparent;
+  
+  border-right: 8vw solid #334D42;
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 2vw solid transparent;
+  border-bottom: 2vw solid transparent;
+  
+  border-left: 8vw solid #334D42;
+}
+
+
+.characterIMG{
+  max-width: 20vw;
+  max-height: 20vw;
+}
+
+.characterSTORY{
+  color: black;
+  font-size: 2vw;
+  border: 0.2vw solid black;
+  padding: 1vw;
+  text-align:justify;
+  font-family:sans-serif;
+}
+
+.characterSTORY:empty{
+  display: none;
+}
